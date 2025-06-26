@@ -1,5 +1,3 @@
--- Problem: beecrowd 2618 Imported Products
--- Display product name, supplier name, and category name for products supplied by 'Sansul SA' and category 'Imported'
 
 SELECT p.name AS product_name, pr.name AS provider_name, c.name AS category_name
 FROM products p
